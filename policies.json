@@ -1,0 +1,292 @@
+{
+  "company": "AIGC",
+  "assistant_name": "AIGC Policy AI Assistant",
+  "version": "1.0",
+  "language_support": ["Arabic", "English"],
+  "special_rules": [
+  {
+    "keywords": [
+      "work from home",
+      "remote work",
+      "working remotely",
+      "العمل من المنزل",
+      "الدوام عن بعد",
+      "العمل عن بعد"
+    ],
+    "response_en": "The work-from-home policy is currently suspended.",
+    "response_ar": "سياسة العمل من المنزل موقوفة حالياً."
+  }
+],
+  "policies": [
+    {
+      "id": "AIGC-HR-012",
+      "name": "Loan Policy",
+      "sections": [
+        {
+          "title": "Relocation Advance",
+          "content": "Employees permanently relocating from one office to another, where the distance is 120 KM or more, may apply for a one-time relocation advance payment up to 3 basic monthly salaries."
+        },
+        {
+          "title": "Loan Approval",
+          "content": "Loan requests are reviewed by HR, Accounting, and the employee’s line manager. Final approval is required from the Managing Partner. The maximum repayment period is one year."
+        },
+        {
+          "title": "Salary Advance",
+          "content": "A full-time employee who has passed the probationary period may request a salary advance. The advance must be returned in the next month’s payroll release."
+        },
+        {
+          "title": "Personal Loan Limit",
+          "content": "Any personal loan is limited to a maximum of three basic monthly salaries and must not exceed the employee’s end of service amount."
+        }
+      ]
+    },
+    {
+      "id": "AIGC-HR-005",
+      "name": "Attendance and Leave Policy",
+      "sections": [
+        {
+          "title": "Official Working Hours",
+          "content": "AIGC official working hours are from 8:30 AM to 5:30 PM. On Saturdays, official working hours are from 8:30 AM to 1:30 PM."
+        },
+        {
+          "title": "Flexible Working Hours",
+          "content": "Employees may adopt flexible working hours such as 8:00 AM to 5:00 PM or 9:00 AM to 6:00 PM. Line managers may change working hours based on business needs."
+        },
+        {
+          "title": "Break Time",
+          "content": "Employees are entitled to one hour break between 1:00 PM and 2:00 PM, including a 15-minute Duhur prayer break. Employees must log out and in when leaving the office for break."
+        },
+        {
+          "title": "Lateness",
+          "content": "Excessive unjustified lateness may be deducted from the employee’s annual leave balance or directly from monthly salary if no leave balance is available."
+        },
+        {
+          "title": "Absence",
+          "content": "Attendance hours not uploaded on the attendance system are considered absence and may be deducted from salary if no justification is provided to the line manager and HR."
+        },
+        {
+          "title": "Morning Permissions",
+          "content": "Morning permissions must be submitted at least one working day in advance. Same-day requests are rejected and may result in salary deduction and impact annual evaluation."
+        },
+        {
+          "title": "Urgent Morning Permissions",
+          "content": "Unplanned urgent morning permissions may be granted up to two times per month, subject to line manager approval. Exceeding this limit may trigger HR action according to labor law."
+        },
+        {
+          "title": "Annual Leave",
+          "content": "Full-time employees are entitled to annual leave according to local labor law. The line manager may approve or reject leave requests based on business requirements and team availability."
+        },
+        {
+          "title": "Leave Before or After Public Holidays",
+          "content": "Leave immediately before or after public or official holidays is generally not permitted except in exceptional cases. Such requests must be coordinated with HR at least two months in advance."
+        },
+        {
+          "title": "Sick Leave - Saudi Arabia",
+          "content": "In Saudi Arabia, sick leave is calculated as follows: first 30 days fully paid, next 60 days at 75% salary, and following period unpaid. Saudi employees must upload sick leave through Sehhaty platform."
+        },
+        {
+          "title": "Sick Leave - Jordan",
+          "content": "In Jordan, the first 14 days of sick leave are fully paid with hospital-issued medical reports. The next 14 days may be fully paid if hospitalized or based on doctor advice. Additional days may be deducted from annual leave balance or unpaid."
+        },
+        {
+          "title": "Marriage Leave",
+          "content": "Employees are entitled to 5 calendar days of paid marriage leave when they get married for the first time only. A marriage certificate must be submitted to HR."
+        },
+        {
+          "title": "Maternity Leave - Saudi Arabia",
+          "content": "In Saudi Arabia, maternity leave includes 12 weeks fully paid, with an optional additional 4 weeks unpaid according to Saudi Labor Law. AIGC ensures the employee receives 100% of total monthly salary during maternity leave through GOSI and AIGC payments."
+        },
+        {
+          "title": "Maternity Leave - Jordan",
+          "content": "In Jordan, maternity leave is 10 weeks fully paid by social security, with up to one year unpaid leave upon company approval."
+        },
+        {
+          "title": "Paternity Leave",
+          "content": "Male employees are entitled to 3 consecutive working days of paid paternity leave starting from the day of delivery. A birth certificate must be submitted to HR."
+        },
+        {
+          "title": "Work Anniversary Day Off",
+          "content": "After completing one year of service, an employee is entitled to one paid day off every year. It requires line manager approval, is not retroactive, and cannot be carried to the next year."
+        },
+        {
+          "title": "Business Leave or Permission",
+          "content": "Employees must first report to the company office before proceeding to any client site through the system, unless a special case applies. Line manager approval is required and HR confirms through the HR system."
+        },
+        {
+          "title": "Hourly Personal Leave",
+          "content": "Employees may take up to 4 hours of hourly personal leave per day. Requests exceeding 4 hours are considered a full day off. Employees may request hourly personal leave up to two times per month."
+        },
+        {
+          "title": "Hourly Sick Leave",
+          "content": "Employees are entitled to up to 4 hours of sick leave per day for medical appointments, provided they submit a valid medical report. This is deducted from annual sick leave balance."
+        },
+        {
+          "title": "Study or Exam Leave",
+          "content": "Employees must provide official documentation such as class schedules or exam dates, along with direct manager approval. Study or exam leave cannot be applied retroactively or carried forward."
+        },
+        {
+          "title": "Leave Notice Period",
+          "content": "Leave requests for less than 3 days require 2 weeks’ notice. Leave requests for 3 days or more require 1 month notice. Shorter notice requires exceptional approval from team leader and HR."
+        }
+      ]
+    },
+    {
+      "id": "AIGC-HR-014",
+      "name": "Business Travel Policy",
+      "sections": [
+        {
+          "title": "Air Travel",
+          "content": "AIGC provides direct economy return flights where available to the destination or nearest airport for approved business trips."
+        },
+        {
+          "title": "Accommodation",
+          "content": "AIGC provides hotel accommodation through a corporate deal or travel agency, located at a reasonable distance from the office or final destination. Hotel expenses cover a single standard room."
+        },
+        {
+          "title": "Long Business Trips",
+          "content": "For business trips exceeding three weeks, furnished apartments may be considered as an alternative to hotels."
+        },
+        {
+          "title": "Personal Accommodation",
+          "content": "If an employee has personal accommodation in the visited country and does not wish to stay in a hotel, they receive either half per diem for each night or the hotel booking amount for the whole trip, whichever is lower."
+        },
+        {
+          "title": "Per Diem",
+          "content": "Traveling employees receive daily per diem to cover meals, transportation, laundry, and other expenses excluding airfare, hotel, and travel permits."
+        },
+        {
+          "title": "Per Diem Amounts",
+          "content": "Per diem amounts are: USD 60 for Supervisor and below, USD 75 for Assistant Manager, and USD 100 for Manager and above."
+        },
+        {
+          "title": "Per Diem Reimbursement Deadline",
+          "content": "Employees must submit travel expense receipts through HR software as soon as they return. They lose the right to apply for per diem reimbursements if the request is not submitted within five working days from the return date."
+        },
+        {
+          "title": "Domestic Travel and Client Visits",
+          "content": "For domestic business travel or remote client visits, employees receive reimbursement at 80 Riyal for every 100 kilometers traveled, capped at the actual cost of travel between the two cities. Receipts must be submitted through HR software."
+        },
+        {
+          "title": "Airport Transportation",
+          "content": "Transportation to and from the airport is covered by the company separately from per diem and reimbursed upon submitting invoices to HR."
+        },
+        {
+          "title": "Travel Changes",
+          "content": "Any change related to tickets, accommodation, or travel arrangements before or after the trip must be pre-approved by the line manager and relevant department heads if there are financial implications."
+        },
+        {
+          "title": "Late Reporting After Travel",
+          "content": "Traveling employees may report late to the office until 10:30 AM maximum on the next business day if their flights arrive after midnight, subject to line manager approval."
+        }
+      ]
+    },
+    {
+      "id": "AIGC-HR-019",
+      "name": "Performance Appraisal Policy",
+      "sections": [
+        {
+          "title": "Purpose",
+          "content": "The performance appraisal policy aims to drive organizational excellence, employee growth, and alignment with AIGC’s strategic vision through structured goal-setting, regular feedback, and evidence-based appraisals."
+        },
+        {
+          "title": "Performance Management Cycle",
+          "content": "The performance management cycle starts in November each year and includes planning, execution, review, and development phases."
+        },
+        {
+          "title": "Eligibility",
+          "content": "Full-time employees who joined on or before 30 June of the performance year and successfully completed probation are eligible for the annual appraisal cycle. Employees joining after 30 June are evaluated formally in the next full cycle."
+        },
+        {
+          "title": "SMART Objectives",
+          "content": "Employees must have 3 to 7 SMART objectives. Each objective should be measurable, aligned with business objectives, and weighted appropriately."
+        },
+        {
+          "title": "Support Functions Evaluation",
+          "content": "Support functions such as HR, Finance, and IT are evaluated 70% based on KPIs and 30% based on competencies."
+        },
+        {
+          "title": "Consultancy Pool Talent Evaluation",
+          "content": "Pool Talent in the Consultancy Department is evaluated based on separate project evaluations. The final score is the weighted average of project ratings, with 80% based on total project evaluation and 20% based on competencies."
+        },
+        {
+          "title": "Service Line Leaders Evaluation",
+          "content": "Service Line Leaders and Deputies are evaluated 80% based on profitability, including revenue, margins, and utilization, and 20% based on leadership and personal evaluation."
+        },
+        {
+          "title": "Rating Scale",
+          "content": "AIGC uses a five-point rating scale: 5 Outstanding, 4 Exceeds Expectations, 3 Delivers Expectations, 2 Below Expectations, and 1 Unsatisfactory."
+        },
+        {
+          "title": "Bonus Eligibility",
+          "content": "Employees rated 4 Exceeds Expectations or 5 Outstanding qualify for bonuses. Service Line Leaders must achieve predefined revenue and strategic targets."
+        },
+        {
+          "title": "Low Performance",
+          "content": "Employees with low scores receive Individual Development Plans. Poor performance affects promotions, bonuses, and salary adjustments. Continuous underperformance triggers HR intervention."
+        },
+        {
+          "title": "Dispute Resolution",
+          "content": "Employees may question ratings and provide feedback through self-appraisals and written comments. HR reviews extreme scores and intervenes during calibration to correct bias."
+        },
+        {
+          "title": "Rating Calibration",
+          "content": "AIGC applies rating calibration using the Distribution Curve Model to ensure fairness, consistency, and objectivity across departments."
+        },
+        {
+          "title": "Post-Appraisal Actions",
+          "content": "After the annual appraisal cycle, results are used for salary and bonus decisions, promotions, development planning, talent management, performance improvement plans, manager feedback sessions, and HR integration."
+        }
+      ]
+    },
+    {
+      "id": "AIGC-HR-029",
+      "name": "Qualification Increment Policy",
+      "sections": [
+        {
+          "title": "Purpose",
+          "content": "AIGC encourages employees to enhance their knowledge, skills, and professional capabilities in alignment with business needs to improve individual performance and organizational effectiveness."
+        },
+        {
+          "title": "Request Initiation",
+          "content": "Any request for a professional qualification or certification must start with a discussion between the employee and their direct line manager."
+        },
+        {
+          "title": "Assessment Criteria",
+          "content": "The discussion must assess relevance to the employee’s current role or future organizational needs, expected added value to the department and AIGC, and how the certification will be used in practical work."
+        },
+        {
+          "title": "Formal Submission",
+          "content": "Upon agreement, the line manager submits a formal request to HR by email. The request must include certificate name, awarding body, business justification, expected impact and utilization, and whether a qualification increment is requested."
+        },
+        {
+          "title": "HR Review",
+          "content": "HR reviews requests case by case based on business relevance, organizational priorities, internal equity, budget availability, and benchmarking if applicable."
+        },
+        {
+          "title": "HR Decision",
+          "content": "HR formally responds to the employee and line manager confirming whether the certification is approved, whether a qualification increment applies, the approved monthly increment amount if any, and any related conditions."
+        },
+        {
+          "title": "Certification Completion",
+          "content": "After passing the exam, the employee must notify HR and provide the certificate name, passing date, and a copy of the passing result or certificate."
+        },
+        {
+          "title": "Increment Effectiveness",
+          "content": "If a qualification increment is approved, implementation remains subject to payroll cut-off dates and internal controls."
+        },
+        {
+          "title": "Knowledge Sharing",
+          "content": "Employees are expected to actively apply the certification within their role. Knowledge sharing, training sessions, or demonstrations may be required where relevant."
+        },
+        {
+          "title": "Review and Withdrawal",
+          "content": "Any approved qualification increment is subject to review after 6 to 12 months. The increment may be revised or withdrawn if the certification is not utilized, expected business value is not demonstrated, or role requirements change."
+        },
+        {
+          "title": "Special Conditions",
+          "content": "Certifications not aligned with business needs may be declined even if academically valid. Increments covered by AIGC for certifications are limited to a maximum of two certificates."
+        }
+      ]
+    }
+  ]
+}
