@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename);
 app.use(cors());
 app.use(express.json());
 
-const knowledgeBasePath = path.join(__dirname, "knowledge-base", "policies.json");
+const knowledgeBasePath = path.join(__dirname, "policies.json");
 const knowledgeBase = JSON.parse(fs.readFileSync(knowledgeBasePath, "utf-8"));
 
 function detectLanguage(text) {
@@ -89,7 +89,6 @@ function cosineSimilarity(vecA, vecB) {
 
 const embeddingsPath = path.join(
   __dirname,
-  "knowledge-base",
   "policy-embeddings.json"
 );
 
